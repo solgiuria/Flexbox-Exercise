@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;   
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(88, 119, 144);
+    font-family: 'Jost', sans-serif;
+    line-height: 30px;
+}
+
+header{
+    background-color: rgb(55, 81, 126);
+    box-shadow: 0px 1px 20px rgb(202, 196, 196);
+    height: 60px;
+    margin-bottom: 70px;
+}
+
+.divnav{
+    width: 57%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(55, 81, 126);
+}
+
+img{
+    width: 130px;
+    display: flex;  
+}
+
+.button{
+    background-color: rgb(32, 167, 212);
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.button:hover{
+    background-color:  rgb(28, 138, 175);
+}
+ 
+.button a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.maintitle{
+    color: rgb(18, 48, 74);
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.mainp{
+    font-size: 17px;
+    margin-bottom: 70px;
+}
+
+.padre{
+    width: 57%;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;  
+}
+
+.hijo{
+    text-align: center;
+    width: 100%;
+}
+
+.nietos{
+    margin: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hnietos{
+    box-shadow: 2px 2px 15px rgb(236, 231, 231) ;
+    border-radius: 10px;
+    width: 340px;
+    height: 244px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+.hnietos:hover{
+    transform: translateY(-10px);
+    transition: .5s;
+}
+
+.bi{
+    color: rgb(32, 167, 212);
+    font-size: 50px;
+    margin: 20px;
+}
+
+div>p{
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(65, 89, 107);
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+    padding: 0px 20px;
+}
+
+div>h1{
+    color: rgb(18, 48, 74);
+    font-weight: 600;
+    font-size: 20px; 
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buttonstn{
+    height: 55px;
+    width: 150px;
+    background-color: rgb(32, 167, 212);
+    padding: 10px 20px;
+    margin: 40px;
+    border-radius: 50px;
+}
+
+.buttonstn:hover{
+    background-color:  rgb(28, 138, 175);
+}
+
+.buttonstn a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
